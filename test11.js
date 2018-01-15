@@ -1,0 +1,1 @@
+module.exports = (arr, fn) => arr.reduce((acc, curr) => acc.concat([fn(curr)]), [])

@@ -1,0 +1,1 @@
+module.exports = messages => messages.map(m => m.message).filter(m => m.length < 50)

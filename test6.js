@@ -1,0 +1,1 @@
+module.exports = words => words.reduce((obj, word) => ({ ...obj, [word]: (obj[word] || 0) + 1 }), {})

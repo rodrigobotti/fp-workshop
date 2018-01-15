@@ -1,0 +1,1 @@
+module.exports = namespace => (...msgs) => console.log(`${namespace} ${msgs.join(' ')}`)
